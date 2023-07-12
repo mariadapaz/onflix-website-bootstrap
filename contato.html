@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulário de Contato</title>
+    <link rel="stylesheet" href="css/contato.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/plyr.css" type="text/css" />
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css" />
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" />
+  </head>
+  <body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+      <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="header__logo">
+              <a href="./index.html">
+                <img src="img/logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="header__nav">
+              <nav class="header__menu mobile-menu">
+                <ul>
+                  <li class="active"><a href="./index.html">Início</a></li>
+                  <li>
+                    <a href="./categories.html"
+                      >Gêneros<span class="arrow_carrot-down"></span
+                    ></a>
+                    <ul class="dropdown">
+                      <li>
+                        <a href="./categories.html">Ação</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Aventura</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Comédia</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Drama</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Fantasia</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Ficção Científica</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Mistério</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Romance</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Suspense</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Terror</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="./planos.html">Planos</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="header__right">
+              <a href="#" class="search-switch"
+                ><span class="icon_search"></span
+              ></a>
+              <a href="./login.html"><span class="icon_profile"></span></a>
+            </div>
+          </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+      </div>
+    </header>
+    <!-- Header End -->
+    <h2 id="cor">Entre em Contato</h2>
+    <div class="form-container">
+      <form
+        action="https://formsubmit.co/barros.farias@escolar.ifrn.edu.br"
+        method="POST"
+        class="form"
+      >
+        <label for="name">Nome</label>
+        <input type="text" name="name" id="name" required />
+        <label for="email">E-mail</label>
+        <input type="email" name="email" id="email" required />
+        <label for="message">Mensagem</label>
+        <textarea name="message" id="message" required></textarea>
+        <input type="hidden" name="_captcha" value="false" />
+        <input
+          type="hidden"
+          name="_next"
+          value="http://127.0.0.1:5500/obrigado.html"
+        />
+        <button type="submit">Enviar</button>
+      </form>
+    </div>
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-3">
+            <div class="footer__logo">
+              <a href="./index.html"><img src="img/logo.png" alt="" /></a>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="footer__nav">
+              <ul>
+                <li class="active"><a href="./index.html">Início</a></li>
+                <li><a href="./categories.html">Gêneros</a></li>
+                <li><a href="./planos.html">Planos</a></li>
+                <li><a href="contato.html">Contato</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3">
+            <p>
+              <!-- Copyright -->
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear())
+              </script>
+              Web Design by Maria da Paz | IFRN
+              <!-- Copyright -->
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Footer Section End -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

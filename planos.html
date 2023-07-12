@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="zxx">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="Anime Template">
+    <meta name="keywords" content="Anime, unica, creative, html">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Onflix | Website</title>
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700;800;900&display=swap"
+    rel="stylesheet">
+
+    <!-- Css Styles -->
+    <link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="css/font-awesome.min.css" type="text/css">
+    <link rel="stylesheet" href="css/elegant-icons.css" type="text/css">
+    <link rel="stylesheet" href="css/plyr.css" type="text/css">
+    <link rel="stylesheet" href="css/nice-select.css" type="text/css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css" type="text/css">
+    <link rel="stylesheet" href="css/slicknav.min.css" type="text/css">
+    <link rel="stylesheet" href="css/style.css" type="text/css">
+    <link rel="stylesheet" href="price.css" type="text/css">
+
+    <style>
+        .card {
+          border:none;
+          padding: 10px 50px;
+        }
+    
+        .card::after {
+          position: absolute;
+          z-index: -1;
+          opacity: 0;
+          -webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+          transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+    
+        .card:hover {
+    
+    
+          transform: scale(1.02, 1.02);
+          -webkit-transform: scale(1.02, 1.02);
+          backface-visibility: hidden; 
+          will-change: transform;
+          box-shadow: 0 1rem 3rem rgba(0,0,0,.75) !important;
+        }
+    
+        .card:hover::after {
+          opacity: 1;
+        }
+    
+        .card:hover .btn-outline-primary{
+          color:white;
+          background:#e53637;
+        }
+    
+      </style>
+    
+</head>
+
+<body>
+    <!-- Page Preloder -->
+    <div id="preloder">
+        <div class="loader"></div>
+    </div>
+
+    <!-- Header Section Begin -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-2">
+            <div class="header__logo">
+              <a href="./index.html">
+                <img src="img/logo.png" alt="" />
+              </a>
+            </div>
+          </div>
+          <div class="col-lg-8">
+            <div class="header__nav">
+              <nav class="header__menu mobile-menu">
+                <ul>
+                  <li class="active"><a href="./index.html">Início</a></li>
+                  <li>
+                    <a href="./categories.html"
+                      >Gêneros<span class="arrow_carrot-down"></span
+                    ></a>
+                    <ul class="dropdown">
+                      <li>
+                        <a href="./categories.html">Ação</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Aventura</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Comédia</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Drama</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Fantasia</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Ficção Científica</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Mistério</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Romance</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Suspense</a>
+                      </li>
+                      <li>
+                        <a href="./categories.html">Terror</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li><a href="./planos.html">Planos</a></li>
+                  <li><a href="contato.html">Contato</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+          <div class="col-lg-2">
+            <div class="header__right">
+              <a href="#" class="search-switch"
+                ><span class="icon_search"></span
+              ></a>
+              <a href="./login.html"><span class="icon_profile"></span></a>
+            </div>
+          </div>
+        </div>
+        <div id="mobile-menu-wrap"></div>
+      </div>
+    </header>
+    <!-- Header End -->
+
+ <div class="text"><h1>Planos Disponíveis</h1></div>
+    <div class="container-fluid" style="background: linear-gradient(90deg, #0b0c2a 0%,);">
+        <div class="container p-5">
+          <div class="row">
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card h-100 shadow-lg">
+                <div class="card-body">
+                  <div class="text-center p-3">
+                    <h5 class="card-title">Prata</h5>
+                    <small>Individual</small>
+                    <br><br>
+                    <span class="h2">$15</span>/mês
+                    <br><br>
+                  </div>
+                  <p class="card-text">Plano indivídual com filmes e séries em HD. Um plano perfeito para quem gosta de maratonar por horas.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> HD Disponível</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> 1 Tela Simuntânea</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> Notebook, TV e Android</li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="planos-details.html"><button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card h-100 shadow-lg">
+                <div class="card-body">
+                  <div class="text-center p-3">
+                    <h5 class="card-title">Ouro</h5>
+                    <small>Duo</small>
+                    <br><br>
+                    <span class="h2">$24</span>/mês
+                    <br><br>
+                  </div>
+                  <p class="card-text">Plano perfeito para ser compartilhado com alguém especial. Conteúdo disponível em HD. </p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> HD Disponível</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> 2 Telas Simuntâneas</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> Notebook, TV e Android</li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="planos-details.html"><button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button></a>
+                </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-md-12 mb-4">
+              <div class="card h-100 shadow-lg">
+                <div class="card-body">
+                  <div class="text-center p-3">
+                    <h5 class="card-title">Diamante</h5>
+                    <small>Família</small>
+                    <br><br>
+                    <span class="h2">$32</span>/mês
+                    <br><br>
+                  </div>
+                  <p class="card-text">Plano para toda a família. Com conteúdos em Full HD com 4 telas simuntâneas para curtir com quem ama.</p>
+                </div>
+                <ul class="list-group list-group-flush">
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> Full HD</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> 4 Telas Simuntâneas</li>
+                  <li class="list-group-item"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+                    <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+                  </svg> Notebook, TV e Android</li>
+                </ul>
+                <div class="card-body text-center">
+                  <a href="planos-details.html"><button class="btn btn-outline-primary btn-lg" style="border-radius:30px">Select</button></a>
+                </div>
+              </div>
+            </div>
+          </div>    
+        </div>
+    <!-- Footer Section Begin -->
+    <footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <div class="footer__logo">
+                        <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                    </div>
+                </div>
+                <div class="col-lg-6">
+                    <div class="footer__nav">
+                        <ul>
+                            <li class="active"><a href="./index.html">Início</a></li>
+                            <li><a href="./categories.html">Gêneros</a></li>
+                            <li><a href="./planos.html">Planos</a></li>
+                            <li><a href="contato.html">Contato</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-lg-3">
+                  <p>
+                    <!-- Copyright -->
+                    Copyright &copy;
+                    <script>
+                      document.write(new Date().getFullYear())
+                    </script>
+                    Web Design by Maria da Paz | IFRN
+                    <!-- Copyright -->
+                  </p>
+                </div>
+              </div>
+          </div>
+      </footer>
+      <!-- Footer Section End -->
+
+      <!-- Search model Begin -->
+      <div class="search-model">
+        <div class="h-100 d-flex align-items-center justify-content-center">
+            <div class="search-close-switch"><i class="icon_close"></i></div>
+            <form class="search-model-form">
+                <input type="text" id="search-input" placeholder="Search here.....">
+            </form>
+        </div>
+    </div>
+    <!-- Search model end -->
+
+    <!-- Js Plugins -->
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+    <script src="js/mixitup.min.js"></script>
+    <script src="js/jquery.slicknav.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/main.js"></script>
+
+</body>
+
+</html>
